@@ -14,7 +14,7 @@ class BootStrap {
 	def base_student = Student.findByStudentNumber('B1026838') ?: new Student(fullStudentName: 'Sean Edgar', studentNumber: 	'B1026838', notes: 'empty').save();
     }
 
-
+	//Test data, for demonstration purposes.
 
     def destroy = {
     }
